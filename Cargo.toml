@@ -1,0 +1,3 @@
+[workspace]
+members = ["sorting"]
+resolver = "2"
