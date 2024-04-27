@@ -1,3 +1,6 @@
+/**
+ * Applies the first-fit bin packing algorithm to a slice
+ */
 pub fn first_fit(capacity: u32, items: &[u32]) -> Vec<Vec<u32>> {
     let mut bins: Vec<Vec<u32>> = Vec::new();
     for i in items {
